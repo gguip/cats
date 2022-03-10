@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_landingpages",
+  "info": {
+    "singularName": "test-landingpage",
+    "pluralName": "test-landingpages",
+    "displayName": "TestLandingpage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TextField": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

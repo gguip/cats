@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_pet_images",
+  "info": {
+    "displayName": "petImage",
+    "icon": "cat"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "petName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

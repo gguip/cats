@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "displayName": "sectionPet",
+    "icon": "toolbox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "petImage": {
+      "displayName": "petImage",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.pet-image",
+      "required": true
+    },
+    "subtitle": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
